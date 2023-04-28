@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // Не позволяет использовать код без типа
+    "noImplicitAny": true,
+    // Указание модульной системы
+    "module": "es6",
+    // Версия, в которую компилируется код (от этого зависит поддержка браузерами)
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
