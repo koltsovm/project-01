@@ -7,7 +7,7 @@
     "module": "es6",
     // Версия, в которую компилируется код (от этого зависит поддержка браузерами)
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
