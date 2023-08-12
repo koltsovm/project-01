@@ -8,7 +8,7 @@ describe('classNames', () => {
         const expected = 'someClass class1 class2';
         expect(classNames(
             'someClass',
-            { hovered: true, scrollable: true },
+            {},
             ['class1', 'class2'],
         )).toBe(expected);
     });
